@@ -4,7 +4,13 @@ This PHP SDK is a simplied version of ever made **Mpessa** integration script. H
 
 ### NO.1: Configure the database:
 - You will find database.sql file in the root folder of the repository. Import it first.
-- Setup the database connection configuration in /classes/db.php
+- Setup the database connection configuration in /classes/db.php as shown below:
+  ```
+  private $dbname = "MPESSA";
+  private $dbhost = "localhost";
+  private $dbuser = "";
+  private $dbpwd = "";
+  ```
 
 ### NO.2: Setup Mpessa API credentials:
 - Decide either in **sandbox** or **openapi** mode
