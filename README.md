@@ -11,6 +11,23 @@ This PHP SDK is a simplied version of ever made **Mpessa** integration script. H
 - In classes/VodacomMpessa.php, configure API key, service provider code and prompt code.
   Kindly note that, the default service provider code when in sandbox is **000000**
 
+  Here is the demonstation:
+  ```
+
+  private static $api_key = "your_API_key";
+
+  //Environment options are sandbox or openapi
+  private static $environment = "sandbox";
+
+  //Service provider code
+  private static $ServiceProviderCode = "service_code";
+  
+  //This is only required in production (openapi)
+  private static $promptCode = "prompt_org_code";
+
+  ```
+
+
 ### NO.3: Configure country and currency:
 - In inc/pay.inc.php, change these lines of code to fit your details:
    ```
