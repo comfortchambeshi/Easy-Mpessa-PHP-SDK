@@ -41,6 +41,9 @@ This PHP SDK is a simplied version of ever made **Mpessa** integration script. H
    $pay = $VodacomMpessa->c2b($amount, $phone_number, "GHS", 'GHA', "Product title");
    ```
 
+### NO.3: Setup callback URL:
+From your Mpessa dashboard, set response urls to https://your_site.com/callback.php
+
 
 That's all you need to do. For more information and collaboration reach out to us on Whatsapp +260968793843 and Email: witlevels04@gmail.com
 
