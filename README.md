@@ -2,6 +2,9 @@
 
 This PHP SDK is a simplied version of ever made **Mpessa** integration script. Here are a few things you need to do to get started:
 
+### NO. O.1: Register for an account:
+https://openapiportal.m-pesa.com/login
+
 ### NO.1: Configure the database:
 - You will find database.sql file in the root folder of the repository. Import it first.
 - Setup the database connection configuration in /classes/db.php as shown below:
